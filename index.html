@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>knowit-assignment</title>
+</head>
+  <body>
+
+    <div class="container table-responsive table-responsive-sm">
+      <h1 class="text-center">Github Repositories</h1>
+      <nav>
+        <ul class="pagination justify-content-end">
+          <!-- Page navigator loaded by JS -->
+        </ul>
+      </nav>
+
+      <table class="table table-striped table-hover table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th>Name of repository</th>
+            <th>Description</th>
+            <th>Stargazers</th>
+            <th>Issues</th>
+            <th>Forks</th>
+          </tr>
+        </thead>
+        <tbody id="tableData">
+          <!-- Table data loaded by JS -->
+          <tr>
+            <td colspan="5">Loading data...</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
